@@ -46,3 +46,9 @@ margin: 0.5rem;
 .card-5{
     background: url(./5.jpg) no-repeat center center/cover;
 }
+@media only screen and (max-width: 600px) {
+    .container{
+        flex-direction: column;
+        height: 100vh;
+    }
+}
