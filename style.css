@@ -13,8 +13,7 @@ body{
    
 }
 .container{
-width: 90vw;
- margin: 0 5rem;
+width: 95vw;
 display: flex;
 align-content: center;
 justify-content: center;
@@ -25,8 +24,8 @@ flex:1;
 height: 80vh;
 border-radius: 40px;
 cursor: pointer;
-transition: all 3s ease-in-out;
-margin: 1rem;
+transition: all 0.7s ease-in-out;
+margin: 0.5rem;
 
 }
 .active{
