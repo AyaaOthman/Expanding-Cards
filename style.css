@@ -1,0 +1,49 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   
+}
+.container{
+width: 90vw;
+ margin: 0 5rem;
+display: flex;
+align-content: center;
+justify-content: center;
+
+}
+.card{
+flex:1;
+height: 80vh;
+border-radius: 40px;
+cursor: pointer;
+transition: all 3s ease-in-out;
+margin: 1rem;
+
+}
+.active{
+    flex: 5;
+}
+.card-1{
+    background: url(./1.jpg) no-repeat center center/cover;  
+}
+.card-2{
+    background: url(./2.jpg) no-repeat center center/cover;
+}
+.card-3{
+    background: url(./3.jpg) no-repeat center center/cover;
+}
+.card-4{
+    background: url(./4.jpg) no-repeat center center/cover;
+}
+.card-5{
+    background: url(./5.jpg) no-repeat center center/cover;
+}
